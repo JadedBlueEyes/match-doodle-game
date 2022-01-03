@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "dobble-multiplayer@0.0.1",
+    "stage": "dev",
+    "script": "svelte-kit dev",
+    "pkgname": "dobble-multiplayer",
+    "err": {
+      "name": "Error",
+      "message": "dobble-multiplayer@0.0.1 dev: `svelte-kit dev`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "Error: dobble-multiplayer@0.0.1 dev: `svelte-kit dev`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/usr/local/pnpm-global/5/node_modules/.pnpm/pnpm@6.7.1/node_modules/pnpm/dist/pnpm.cjs:92259:22)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1064:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  }
+}
