@@ -1,7 +1,7 @@
 <script>
-	import random from 'lodash/random';
 	import { cards, symbolsPerCard } from '$lib/generate';
 	import { positionIcons } from '$lib/position';
+	import { random } from '$lib/utils';
 	import DobbleDisplay from '$lib/DobbleDisplay.svelte';
 
 	const iconSize = 164;

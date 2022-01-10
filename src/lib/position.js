@@ -1,5 +1,4 @@
-import random from "lodash/random";
-import shuffle from "lodash/shuffle"
+import { random, shuffle } from "$lib/utils";
 
 // Distance between two 2d points.
 // ([x, y], [x, y])
